@@ -1,0 +1,787 @@
+{
+  "population": "Reference ANSWERABLE cases; failed retrievals remain zero-scored.",
+  "cases": 60,
+  "answerable": 27,
+  "variants": {
+    "dense": {
+      "first_candidates": {
+        "1": {
+          "recall": {
+            "mean": 0.5,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 1.0,
+            "cases": 27
+          }
+        },
+        "3": {
+          "recall": {
+            "mean": 0.7962962962962963,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.5308641975308641,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8215801720169391,
+            "cases": 27
+          }
+        },
+        "6": {
+          "recall": {
+            "mean": 0.8518518518518519,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.2839506172839506,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8499258741619198,
+            "cases": 27
+          }
+        },
+        "12": {
+          "recall": {
+            "mean": 0.8703703703703703,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.1450617283950617,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8564902921909585,
+            "cases": 27
+          }
+        },
+        "20": {
+          "recall": {
+            "mean": 0.8703703703703703,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.08703703703703704,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8564902921909585,
+            "cases": 27
+          }
+        },
+        "bundle_coverage": {
+          "numerator": 47,
+          "denominator": 54,
+          "value": 0.8703703703703703
+        }
+      },
+      "final_candidates": {
+        "1": {
+          "recall": {
+            "mean": 0.5,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 1.0,
+            "cases": 27
+          }
+        },
+        "3": {
+          "recall": {
+            "mean": 0.7962962962962963,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.5308641975308641,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8215801720169391,
+            "cases": 27
+          }
+        },
+        "6": {
+          "recall": {
+            "mean": 0.8518518518518519,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.2839506172839506,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8499258741619198,
+            "cases": 27
+          }
+        },
+        "12": {
+          "recall": {
+            "mean": 0.8703703703703703,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.1450617283950617,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8564902921909585,
+            "cases": 27
+          }
+        },
+        "20": {
+          "recall": {
+            "mean": 0.8703703703703703,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.08703703703703704,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8564902921909585,
+            "cases": 27
+          }
+        },
+        "bundle_coverage": {
+          "numerator": 47,
+          "denominator": 54,
+          "value": 0.8703703703703703
+        }
+      },
+      "first_input": {
+        "1": {
+          "recall": {
+            "mean": 0.5,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 1.0,
+            "cases": 27
+          }
+        },
+        "3": {
+          "recall": {
+            "mean": 0.7962962962962963,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.5308641975308641,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8215801720169391,
+            "cases": 27
+          }
+        },
+        "6": {
+          "recall": {
+            "mean": 0.8333333333333334,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.2777777777777778,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8411407736889829,
+            "cases": 27
+          }
+        },
+        "12": {
+          "recall": {
+            "mean": 0.8333333333333334,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.1388888888888889,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8411407736889829,
+            "cases": 27
+          }
+        },
+        "20": {
+          "recall": {
+            "mean": 0.8333333333333334,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.08333333333333334,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8411407736889829,
+            "cases": 27
+          }
+        },
+        "bundle_coverage": {
+          "numerator": 45,
+          "denominator": 54,
+          "value": 0.8333333333333334
+        }
+      },
+      "final_input": {
+        "1": {
+          "recall": {
+            "mean": 0.5,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 1.0,
+            "cases": 27
+          }
+        },
+        "3": {
+          "recall": {
+            "mean": 0.7962962962962963,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.5308641975308641,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8215801720169391,
+            "cases": 27
+          }
+        },
+        "6": {
+          "recall": {
+            "mean": 0.8333333333333334,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.2777777777777778,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8411407736889829,
+            "cases": 27
+          }
+        },
+        "12": {
+          "recall": {
+            "mean": 0.8333333333333334,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.1388888888888889,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8411407736889829,
+            "cases": 27
+          }
+        },
+        "20": {
+          "recall": {
+            "mean": 0.8333333333333334,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.08333333333333334,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8411407736889829,
+            "cases": 27
+          }
+        },
+        "bundle_coverage": {
+          "numerator": 45,
+          "denominator": 54,
+          "value": 0.8333333333333334
+        }
+      }
+    },
+    "hybrid": {
+      "first_candidates": {
+        "1": {
+          "recall": {
+            "mean": 0.5,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 1.0,
+            "cases": 27
+          }
+        },
+        "3": {
+          "recall": {
+            "mean": 0.8703703703703703,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.5802469135802468,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8937582195427624,
+            "cases": 27
+          }
+        },
+        "6": {
+          "recall": {
+            "mean": 0.9074074074074074,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.30246913580246915,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.9116276847053829,
+            "cases": 27
+          }
+        },
+        "12": {
+          "recall": {
+            "mean": 0.9629629629629629,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.16049382716049382,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.9325199844838492,
+            "cases": 27
+          }
+        },
+        "20": {
+          "recall": {
+            "mean": 0.9629629629629629,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.0962962962962963,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.9325199844838492,
+            "cases": 27
+          }
+        },
+        "bundle_coverage": {
+          "numerator": 52,
+          "denominator": 54,
+          "value": 0.9629629629629629
+        }
+      },
+      "final_candidates": {
+        "1": {
+          "recall": {
+            "mean": 0.5,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 1.0,
+            "cases": 27
+          }
+        },
+        "3": {
+          "recall": {
+            "mean": 0.8703703703703703,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.5802469135802468,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8937582195427624,
+            "cases": 27
+          }
+        },
+        "6": {
+          "recall": {
+            "mean": 0.9074074074074074,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.30246913580246915,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.9116276847053829,
+            "cases": 27
+          }
+        },
+        "12": {
+          "recall": {
+            "mean": 0.9629629629629629,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.16049382716049382,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.9325199844838492,
+            "cases": 27
+          }
+        },
+        "20": {
+          "recall": {
+            "mean": 0.9629629629629629,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.0962962962962963,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.9325199844838492,
+            "cases": 27
+          }
+        },
+        "bundle_coverage": {
+          "numerator": 52,
+          "denominator": 54,
+          "value": 0.9629629629629629
+        }
+      },
+      "first_input": {
+        "1": {
+          "recall": {
+            "mean": 0.5,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 1.0,
+            "cases": 27
+          }
+        },
+        "3": {
+          "recall": {
+            "mean": 0.8703703703703703,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.5802469135802468,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8937582195427624,
+            "cases": 27
+          }
+        },
+        "6": {
+          "recall": {
+            "mean": 0.8888888888888888,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.2962962962962963,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.9035385203787842,
+            "cases": 27
+          }
+        },
+        "12": {
+          "recall": {
+            "mean": 0.8888888888888888,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.14814814814814814,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.9035385203787842,
+            "cases": 27
+          }
+        },
+        "20": {
+          "recall": {
+            "mean": 0.8888888888888888,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.08888888888888889,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.9035385203787842,
+            "cases": 27
+          }
+        },
+        "bundle_coverage": {
+          "numerator": 48,
+          "denominator": 54,
+          "value": 0.8888888888888888
+        }
+      },
+      "final_input": {
+        "1": {
+          "recall": {
+            "mean": 0.5,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 1.0,
+            "cases": 27
+          }
+        },
+        "3": {
+          "recall": {
+            "mean": 0.8703703703703703,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.5802469135802468,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.8937582195427624,
+            "cases": 27
+          }
+        },
+        "6": {
+          "recall": {
+            "mean": 0.8888888888888888,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.2962962962962963,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.9035385203787842,
+            "cases": 27
+          }
+        },
+        "12": {
+          "recall": {
+            "mean": 0.8888888888888888,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.14814814814814814,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.9035385203787842,
+            "cases": 27
+          }
+        },
+        "20": {
+          "recall": {
+            "mean": 0.8888888888888888,
+            "cases": 27
+          },
+          "precision": {
+            "mean": 0.08888888888888889,
+            "cases": 27
+          },
+          "mrr": {
+            "mean": 1.0,
+            "cases": 27
+          },
+          "ndcg": {
+            "mean": 0.9035385203787842,
+            "cases": 27
+          }
+        },
+        "bundle_coverage": {
+          "numerator": 48,
+          "denominator": 54,
+          "value": 0.8888888888888888
+        }
+      }
+    }
+  }
+}

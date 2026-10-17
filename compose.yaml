@@ -1,0 +1,39 @@
+x-app: &app
+  build: .
+  image: assuredesk:acceptance
+  environment: &environment
+    DATABASE_URL: postgresql+psycopg://assuredesk:local-only@db/assuredesk
+    LOCAL_HTTP: '1'
+  volumes:
+    - application:/app/data
+  depends_on:
+    db:
+      condition: service_healthy
+  security_opt:
+    - no-new-privileges:true
+  cap_drop: [ALL]
+  mem_limit: 2g
+  cpus: 2
+services:
+  db:
+    image: pgvector/pgvector:0.8.2-pg17
+    environment:
+      POSTGRES_USER: assuredesk
+      POSTGRES_PASSWORD: local-only
+      POSTGRES_DB: assuredesk
+    volumes: [postgres:/var/lib/postgresql/data]
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U assuredesk']
+      interval: 5s
+      retries: 10
+  api:
+    <<: *app
+    ports: ['127.0.0.1:${ASSUREDESK_PORT:-8012}:8000']
+  worker:
+    <<: *app
+    env_file: .env
+    environment: *environment
+    command: [python, -m, app.worker]
+volumes:
+  postgres:
+  application:

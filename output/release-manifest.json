@@ -1,0 +1,80 @@
+{
+  "image_id": "sha256:6fac60df516695b574c5508c9c6fc9a70aee056e5308bc310b42328ab3d882e3",
+  "migration": "003",
+  "lock_sha256": "c8ccb208a15ba7158645321d09a9d1a8d5d4ea1a9e6a945a0984ecfdd91c366a",
+  "native_tests": {
+    "passed": 99,
+    "skipped": 1,
+    "distinct_passed_functions": 98,
+    "final_full_suite_seconds": 15.37
+  },
+  "linux_container_tests": {
+    "passed": 22,
+    "image_id": "sha256:a83d08635b07cc2b2746093179df75cc481af6946e87e9685292d59aaf9247fa"
+  },
+  "three_minute_walkthrough": "passed separately, 182.89 seconds",
+  "post_report_change_targeted_tests": {
+    "passed": 22
+  },
+  "measured_config": {
+    "cases": "bf44f503048c7c7a224aa7883b034f946154b1e2c5cf76fedf0e48ebd88c115a",
+    "sources": "36ad8c266c860c721df0ef315463f4c7c2f2639983566d3c0b998c02668769d1",
+    "config": "a68390cd65412e8191893aa0d9d2db3f814ca2d439e1abed4cd65a609c880b2d",
+    "review": "5b810e21cddb1a0e0e7eb5d3150d4bdb6d0eb1e24550649cefd8d4f818a0109d",
+    "corpus": "46b9b944935c4ef7a68a444d0a0ca380992b17a066807f43b0684db40f39f7af",
+    "threshold": 0.9,
+    "independent_validation": false,
+    "date": "2026-10-04"
+  },
+  "artifacts": {
+    "output/evaluation/campaign-costs.json": "27113b3eb1db29daf43b77efa390e4039d87e060a78be852c698b0011726da3b",
+    "output/evaluation/evaluation-artifacts.zip": "b1fb2fbf396ff647b2b8e65d35e2d7a9d13456167276d88b9af9c7cb8ba61223",
+    "output/evaluation/final-implementation.zip": "58406c70b20339195341ee9cb15db5a11464c87480876ac2765336f71477e490",
+    "output/evaluation/frozen-implementation.zip": "673356bcc36a4a7016b50df31f7ae17284f46ee90286880104d3c8a1147ac1d7",
+    "output/evaluation/locked-report.json": "1af3d8a8be94b80e7744f476ba2638accca1e9b8c66f4a08f89ae38a917b834d",
+    "output/evaluation/locked-report.md": "f7c75016463a3db9165cfbc83b28c1e505bf16a566fec972963564e4d4ae31e1",
+    "output/evaluation/release-implementation.zip": "39eeb493bbc714141cd6b4fc796933f5c003b6c49a37762f9d404040213a51b3",
+    "output/evaluation/runtime-change.json": "531a5f5a27dc4851534124f169df6a5a6723c6a5d7aef4ddc8f500fb8b7adf10",
+    "output/evaluation/validation-report.md": "1acbfe5eca317887c4aef1137f082f21a0e72b5263459f646eee6f1b07ea90e7"
+  },
+  "source_hashes": {
+    "app/__init__.py": "675472d2c34b2f56382a17ebb51ffe8b54f19479697f65a167f464603dfd3264",
+    "app/cli.py": "fce9c52f055e09d408d215b4fc22137827db616bb32fe89c4c588c7d5efa4b78",
+    "app/config.py": "03c27a636888593f0f1a5096c67a00ebf5539a7bf133fb65f36b734403eff76a",
+    "app/db.py": "4aff824fb75473ae2c6728fc278de3b8a68855981a47c06f6382cf395bcc1117",
+    "app/evaluation.py": "ec22a2af3a9af1b87b36f80c8cf73e14e3c9a86f7f575a4bc64280a52a9a7d12",
+    "app/operations.py": "e392876193ab1d301eec7a33ca7d30a5d1764109afb925d7336400154f0c4fc1",
+    "app/parser_child.py": "eef23756026670cd6903c5565baae9209ebf3b28f7d19fbf6d8c56d0cd19b421",
+    "app/parsing.py": "b4518e3765e5f2e68631eb1bfdd4a4118f7b3bf3ca8abb0d348e68a0b7222d87",
+    "app/policy.py": "8cac6a335a4e241d4d9b559960cfed571bb5a271db198d8f568293fc866cbf1f",
+    "app/providers.py": "28b9a6f325c287512908d49d9bd06fd1df4e8c062cc674b2a9dfa0f3290d02d7",
+    "app/retrieval.py": "6455c12019c1401df19d93b515bff3f0d25715446bd2b0ebdc72908a536bf1d6",
+    "app/schema.py": "610017cf8373a6d093d8672f78a1e083746ebc7281fe1a5bff7fcaf075c27946",
+    "app/scoring.py": "1abc9e6851e2b5b3a4718dcfded07149f93cbd9559564caede77423e71322aac",
+    "app/service.py": "4c72db92699f00e9cd74c470238073b149fe9e7edad7232daf6c1ae4d41e878a",
+    "app/web.py": "413141c5dcfa9b9a20e76b05f06ccc309ba6fa5f6f15c68a6fb30aab1899b476",
+    "app/workbooks.py": "18e0983ee6e2e30b822ccb4c741a38484eaa534587e07a58253e1fb5e9dcc1dd",
+    "app/worker.py": "6cb1e85760ebc4e91f47cd69db974d5fa2a07c24242fca270f2a6e27d69ea6ab",
+    "app/workflow.py": "5e5f3b2a4fe01a69a8918f6a52b76278f69b9b77beb246ebec8f5df3deee06ed"
+  },
+  "final_image_smoke": {
+    "nonroot": true,
+    "api_has_no_model_key": true,
+    "worker_current": true,
+    "operations_fields": true,
+    "readiness": {
+      "status": "ready"
+    },
+    "image_id": "sha256:6fac60df516695b574c5508c9c6fc9a70aee056e5308bc310b42328ab3d882e3"
+  },
+  "artifact_rescore_verified": true,
+  "verification_artifacts": {
+    "output/tests.xml": "6681ac391e41c6ad3b33ebddbacf48eb316bf26e0012061fbde4022d4b444d0e",
+    "output/fixtures.jsonl": "cd804c4b588bc8b60c84dc1376ed51f6b2e86c146057ffe3bf48977674fbb5b8",
+    "output/restore-drill.json": "c49f3048ff25e598ad6afef60b91620937dfbec1672dd80837027f68b1bff77a",
+    "output/container/acceptance.json": "c1f316af7258c1ed678abafc3334ee7df0cd14034354bfb36746a8d6ffe8cb98",
+    "output/container/final-smoke.json": "f4a45fc77bce40e70df0de92569c79b0727be1325307564a08c41986607c3666",
+    "output/container/tests.xml": "e816f7fd357cd2b23a145c3baa49e91bd8baec300a3684fe52f68ed5b3c2690e",
+    "output/playwright/assuredesk-three-minute-demo.webm": "7c67a34684f7f61b518f1bfea7d67c11f0ccd047b4f559922cdc1b3b568372ba"
+  }
+}

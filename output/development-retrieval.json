@@ -1,0 +1,3510 @@
+{
+  "configuration": "5ec171bb605a4b5be1a27871cb7dbbc299de8e58cc249da858fb4599c2f2ae19",
+  "cases": 60,
+  "paid_calls": 0,
+  "seconds": 2.6471542499493808,
+  "summary": {
+    "dense": {
+      "candidate_bundle": {
+        "numerator": 54,
+        "denominator": 60
+      },
+      "input_bundle": {
+        "numerator": 48,
+        "denominator": 60
+      }
+    },
+    "hybrid": {
+      "candidate_bundle": {
+        "numerator": 56,
+        "denominator": 60
+      },
+      "input_bundle": {
+        "numerator": 52,
+        "denominator": 60
+      }
+    }
+  },
+  "results": [
+    {
+      "case": "transit-1",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.8315546295836225
+      }
+    },
+    {
+      "case": "transit-1",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "transit-2",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "transit-2",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "transit-3",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "transit-3",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "transit-4",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      }
+    },
+    {
+      "case": "transit-4",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      }
+    },
+    {
+      "case": "transit-5",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      }
+    },
+    {
+      "case": "transit-5",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "storage-1",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.8315546295836225
+      }
+    },
+    {
+      "case": "storage-1",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      }
+    },
+    {
+      "case": "storage-2",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "storage-2",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "storage-3",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "storage-3",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "storage-4",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      }
+    },
+    {
+      "case": "storage-4",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "storage-5",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      }
+    },
+    {
+      "case": "storage-5",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "mfa-1",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "mfa-1",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      }
+    },
+    {
+      "case": "mfa-2",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "mfa-2",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "mfa-3",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.8503449055347546
+      }
+    },
+    {
+      "case": "mfa-3",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "mfa-4",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "mfa-4",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "mfa-5",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "mfa-5",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sso-1",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sso-1",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sso-2",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sso-2",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sso-3",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      }
+    },
+    {
+      "case": "sso-3",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sso-4",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sso-4",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sso-5",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      }
+    },
+    {
+      "case": "sso-5",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "rbac-1",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.8315546295836225
+      }
+    },
+    {
+      "case": "rbac-1",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      }
+    },
+    {
+      "case": "rbac-2",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "rbac-2",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "rbac-3",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "rbac-3",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "rbac-4",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "rbac-4",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "rbac-5",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "rbac-5",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sessions-1",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sessions-1",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sessions-2",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sessions-2",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "sessions-3",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "sessions-3",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sessions-4",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sessions-4",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sessions-5",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "sessions-5",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "deletion-1",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.8315546295836225
+      }
+    },
+    {
+      "case": "deletion-1",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      }
+    },
+    {
+      "case": "deletion-2",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "deletion-2",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "deletion-3",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "deletion-3",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      }
+    },
+    {
+      "case": "deletion-4",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "deletion-4",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "deletion-5",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "deletion-5",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "logs-1",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "logs-1",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "logs-2",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "logs-2",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      }
+    },
+    {
+      "case": "logs-3",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      }
+    },
+    {
+      "case": "logs-3",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "logs-4",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "logs-4",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "logs-5",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "logs-5",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "backups-1",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.8503449055347546
+      }
+    },
+    {
+      "case": "backups-1",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "backups-2",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "backups-2",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "backups-3",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "backups-3",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      }
+    },
+    {
+      "case": "backups-4",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "backups-4",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "backups-5",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      }
+    },
+    {
+      "case": "backups-5",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "recovery-1",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "recovery-1",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "recovery-2",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "recovery-2",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "recovery-3",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      }
+    },
+    {
+      "case": "recovery-3",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "recovery-4",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "recovery-4",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "recovery-5",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 0.5,
+        "ndcg": 0.6240505200038379
+      }
+    },
+    {
+      "case": "recovery-5",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "incident-1",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "incident-1",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      }
+    },
+    {
+      "case": "incident-2",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "incident-2",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.8315546295836225
+      }
+    },
+    {
+      "case": "incident-3",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "incident-3",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.9197207891481876
+      }
+    },
+    {
+      "case": "incident-4",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "incident-4",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "incident-5",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "incident-5",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "hosting-1",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 0.3333333333333333,
+        "ndcg": 0.3065735963827292
+      }
+    },
+    {
+      "case": "hosting-1",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 0.5,
+        "ndcg": 0.6934264036172708
+      }
+    },
+    {
+      "case": "hosting-2",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "hosting-2",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "hosting-3",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 0.5,
+        "ndcg": 0.38685280723454163
+      }
+    },
+    {
+      "case": "hosting-3",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "input_bundle": {
+        "numerator": 1,
+        "denominator": 3,
+        "value": 0.3333333333333333
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 1,
+          "denominator": 2,
+          "value": 0.5
+        },
+        "precision": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "mrr": 1.0,
+        "ndcg": 0.6131471927654584
+      }
+    },
+    {
+      "case": "hosting-4",
+      "mode": "dense",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "hosting-4",
+      "mode": "hybrid",
+      "answerable": false,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    },
+    {
+      "case": "hosting-5",
+      "mode": "dense",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 0.8772153153380493
+      }
+    },
+    {
+      "case": "hosting-5",
+      "mode": "hybrid",
+      "answerable": true,
+      "candidate_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "input_bundle": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "at_6": {
+        "recall": {
+          "numerator": 2,
+          "denominator": 2,
+          "value": 1.0
+        },
+        "precision": {
+          "numerator": 2,
+          "denominator": 6,
+          "value": 0.3333333333333333
+        },
+        "mrr": 1.0,
+        "ndcg": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+.env
+.env.*
+.venv
+.git
+data
+__pycache__
+.pytest_cache
+.ruff_cache
+
+output/
+.mypy_cache/
+.DS_Store
+*.log
+*.ses
+*.key
+*.pem

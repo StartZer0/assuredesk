@@ -1,0 +1,322 @@
+{
+  "model": "kimi-k3",
+  "frozen_config": {
+    "cases": "0d3c7e726aaa4509ca9a0fc0392ca420af02ee13d3f78819d8442b8b14f40852",
+    "sources": "b433776db4eb0ad4f38435ea68c0aa5305ba1c96e4f2e3012994d5ba8b9f3abb",
+    "config": "7c1f75906a8a5de8ae62bfd620d5b1dbaa716bb0345fe735ea94e1f7627ea960",
+    "review": "d5abc9365c5b57539cf242518c6e6b8253c24fc51e873d87aadfab2c01316f05",
+    "corpus": "3e5632dbba67e1b80f2bc784c8825754754d4a87a396538c5f8044f52f447195",
+    "threshold": 0.9,
+    "independent_validation": false,
+    "date": "2026-10-05"
+  },
+  "native_tests": {
+    "passed": 104,
+    "skipped": 2,
+    "seconds": 12.65,
+    "xml": "output/kimi-tests.xml",
+    "suite_xml_seconds": 12.604
+  },
+  "browser_tests": {
+    "passed": 1,
+    "seconds": 3.74,
+    "xml": "output/kimi-browser-tests.xml",
+    "suite_xml_seconds": 3.708
+  },
+  "linux_container_tests": {
+    "passed": 104,
+    "skipped": 2,
+    "seconds": 19.39,
+    "image_id_prefix": "0e95f199a901",
+    "credential_free": true
+  },
+  "source_archive": "output/evaluation/kimi-k3-v2-frozen-implementation.zip",
+  "independent_validation": false,
+  "off_host_scheduled_backup": "destination not configured",
+  "source_hashes": {
+    "app/__init__.py": "675472d2c34b2f56382a17ebb51ffe8b54f19479697f65a167f464603dfd3264",
+    "app/cli.py": "2ed747e934e3e6a12be1d661db55d430c19e6a7c4662d05eb2e380498229e500",
+    "app/config.py": "427b1aeae53090e2a2f754cb9ae9750e1a97fa80e4f709c53a4d2d5ef5a4aa6d",
+    "app/db.py": "4aff824fb75473ae2c6728fc278de3b8a68855981a47c06f6382cf395bcc1117",
+    "app/evaluation.py": "f68c80f5a24f1a9af974a2206ccc1b0feb7459f20552d89034c9353ce970b328",
+    "app/operations.py": "e392876193ab1d301eec7a33ca7d30a5d1764109afb925d7336400154f0c4fc1",
+    "app/parser_child.py": "eef23756026670cd6903c5565baae9209ebf3b28f7d19fbf6d8c56d0cd19b421",
+    "app/parsing.py": "b4518e3765e5f2e68631eb1bfdd4a4118f7b3bf3ca8abb0d348e68a0b7222d87",
+    "app/policy.py": "8cac6a335a4e241d4d9b559960cfed571bb5a271db198d8f568293fc866cbf1f",
+    "app/providers.py": "5725a840803ea191a64b36ef64b3545a92554d25b03d9048b938f2a1b2bafef6",
+    "app/retrieval.py": "6455c12019c1401df19d93b515bff3f0d25715446bd2b0ebdc72908a536bf1d6",
+    "app/schema.py": "610017cf8373a6d093d8672f78a1e083746ebc7281fe1a5bff7fcaf075c27946",
+    "app/scoring.py": "7178f24e480a7aaf6151fe5d235d3beb41c7cbb1b5ba30586b4581a0ce15bd97",
+    "app/service.py": "4c72db92699f00e9cd74c470238073b149fe9e7edad7232daf6c1ae4d41e878a",
+    "app/web.py": "413141c5dcfa9b9a20e76b05f06ccc309ba6fa5f6f15c68a6fb30aab1899b476",
+    "app/workbooks.py": "18e0983ee6e2e30b822ccb4c741a38484eaa534587e07a58253e1fb5e9dcc1dd",
+    "app/worker.py": "c66278da53462abe4b331c1b9ce8052d2c716341f00b631d61ff42aba73b5965",
+    "app/workflow.py": "98a56658583a7e17066b80f73193ebfad15af0b43be29a2e0757c82cc83851c8"
+  },
+  "image_id": "sha256:0e95f199a901b690f2106cf125af6a4e30ba3249ac1828dea59016b36b4cd098",
+  "container_smoke": {
+    "nonroot_api": true,
+    "api_has_no_model_credentials": true,
+    "readiness_http_status": 200,
+    "parser_ok": true,
+    "nonroot_worker": true,
+    "worker_model": "kimi-k3",
+    "worker_credential_present": true,
+    "code_matches_frozen_host": true,
+    "image_id": "sha256:0e95f199a901b690f2106cf125af6a4e30ba3249ac1828dea59016b36b4cd098"
+  },
+  "evaluation": {
+    "validation_batch": "kimi-validation-k3-v2",
+    "validation_runs": 90,
+    "validation_judgments": 90,
+    "locked_batch": "kimi-locked-v1",
+    "locked_questions": 30,
+    "locked_runs": 90,
+    "locked_judgments": 90,
+    "answerable_questions": 13,
+    "status": "scored",
+    "configuration_unchanged": true,
+    "factual_target_met": true,
+    "full_semantic_gate_passed": false,
+    "independent_validation": false,
+    "review_basis": "source-grounded review; no independent human validation claimed",
+    "prior_outcomes_and_unknown_charges_preserved": true,
+    "supported_complete": {
+      "dense": {
+        "numerator": 6,
+        "denominator": 13,
+        "value": 0.46153846153846156
+      },
+      "hybrid": {
+        "numerator": 10,
+        "denominator": 13,
+        "value": 0.7692307692307693
+      },
+      "corrective": {
+        "numerator": 12,
+        "denominator": 13,
+        "value": 0.9230769230769231
+      }
+    },
+    "paired": {
+      "count": 13,
+      "recovery": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "regression": {
+        "numerator": 0,
+        "denominator": 10,
+        "value": 0.0
+      },
+      "net_change": {
+        "numerator": 2,
+        "denominator": 13,
+        "value": 0.15384615384615385
+      },
+      "family_interval": {
+        "families": 5,
+        "lower": 0,
+        "upper": 0.46153846153846156,
+        "seed": 17
+      }
+    },
+    "scope_audit": {
+      "acme_regional_variant_runs": 12,
+      "forbidden_nova_chunks_in_candidates_or_supplied_context": 0
+    }
+  },
+  "artifact_rescore_verified": true,
+  "artifacts": {
+    "output/evaluation/kimi-evaluation-artifacts.zip": "406e19c9eb4aa054a58159dea15340d6c4991ae274c7225f32743eff3100d725",
+    "output/evaluation/kimi-k3-v2-frozen-implementation.zip": "a941c59e34e1da1782a7c3bc10eb022e37de2bc961d530a5d3cd98f69f3aa306",
+    "output/evaluation/kimi-k3-v2-validation-report.json": "5f1af01ec04d0ec9cc4aee1214bd3a7538170cc9c0b613a3e1c773c5bc89eea7",
+    "output/evaluation/kimi-k3-v2-validation-report.md": "204279fa5f404fa697b6bdf65a634565c02030eb54781a623d6e8812865488a9",
+    "output/evaluation/kimi-campaign-costs.json": "d3600bf0f7417912c2a7cf28c173b768055ef08c4c34291a030d1779713a92f4",
+    "output/kimi-tests.xml": "bd3ed705ed19bebfb8d1d49d984a8018bcd7a564f70ddf6727c9d320345b8144",
+    "output/kimi-browser-tests.xml": "1b71e91508d83896cafda7b6ceb2ea7a74803e265d614f89ffe22a21a6a44bf8",
+    "output/evaluation/kimi-release-implementation.zip": "d6b7e7ffda7e4822413dbc07aeb47c173f4f6f2debde99e95c68f025dd77b815",
+    "README.md": "f708ddc87fba87ff674af7545b62573c858f4a538072feb8a5a949052344a490",
+    "output/evaluation/kimi-k3-locked-report.json": "302ab671c7b71d7f11cadee23f5286794847754ca442d6551e88b96a1f8b873b",
+    "output/evaluation/kimi-k3-locked-report.md": "f0ca4a7bac99ff2703192a1575c74dad5bab77452828174c4846dea1900934f0",
+    "MANUAL.md": "fa8257097494d080ee112a605ce1cf39521a6b162a90f3b2f8593a01e8ddae6b",
+    "output/review-fixes-tests.xml": "16ab1e0080f112f4878870f6613f5c27a13b2d6c97503b7d7fc152f9eb758e1e",
+    "output/review-fixes-browser-tests.xml": "adc974fd3d5a0d7833101c51c50cc8741c2b3db29d747335e9fdacf44b11947d",
+    "output/review-fixes-postgres-tests.xml": "755ae45e97729cd19c212201c6f3c24a70c32c1b3d2fd58aef7b1bccb88b2f10"
+  },
+  "deferred_continuation": {
+    "automation_id": "finish-assuredesk-after-daily-reset",
+    "status": "PAUSED",
+    "reason": "Authorized frozen validation, locked comparison, reporting and runtime verification completed; further independent validation and off-host backup require external arrangements."
+  },
+  "verified_at_utc": "2026-10-05T11:32:52.124321+00:00",
+  "offline_rescored_batches": [
+    "kimi-validation-k3-v2",
+    "kimi-locked-v1"
+  ],
+  "native_services": {
+    "api_port": 8012,
+    "api_pid": 16905,
+    "model_credential_in_api_environment": false,
+    "readiness_http_status": 200,
+    "worker_restarted_with_frozen_k3": true,
+    "worker_age_seconds_at_check": 0.733,
+    "local_ui": "reloaded existing tab; AssureDesk sign-in page rendered"
+  },
+  "budget_reconciliation": {
+    "campaign_charge_usd": 6.635433750000001,
+    "known_usage_estimate_usd": 5.207433750000001,
+    "uncertain_reserved_usd": 1.428,
+    "application_utc_day_charge_usd": 1.828908,
+    "application_utc_day": "2026-10-05",
+    "application_day_cap_usd": 5,
+    "campaign_cap_usd": 30
+  },
+  "source_hashes_scope": "Frozen campaign implementation, preserved unchanged; corrected source is separately recorded under post_evaluation_fixes.",
+  "post_evaluation_fixes": {
+    "verified_at_utc": "2026-10-05T12:29:10.127901+00:00",
+    "fixes": [
+      "All planned answerable runs contribute to retrieval denominators; missing outcomes get empty rankings and zero bundle coverage.",
+      "Source rebuilds return predecessor source IDs; legacy generation-hash predecessors are translated for activation.",
+      "Latest run display uses run_requested event time instead of random UUID ordering."
+    ],
+    "application_files_changed_from_frozen": [
+      "app/scoring.py",
+      "app/web.py"
+    ],
+    "current_source_hashes": {
+      "app/__init__.py": "675472d2c34b2f56382a17ebb51ffe8b54f19479697f65a167f464603dfd3264",
+      "app/cli.py": "2ed747e934e3e6a12be1d661db55d430c19e6a7c4662d05eb2e380498229e500",
+      "app/config.py": "427b1aeae53090e2a2f754cb9ae9750e1a97fa80e4f709c53a4d2d5ef5a4aa6d",
+      "app/db.py": "4aff824fb75473ae2c6728fc278de3b8a68855981a47c06f6382cf395bcc1117",
+      "app/evaluation.py": "f68c80f5a24f1a9af974a2206ccc1b0feb7459f20552d89034c9353ce970b328",
+      "app/operations.py": "e392876193ab1d301eec7a33ca7d30a5d1764109afb925d7336400154f0c4fc1",
+      "app/parser_child.py": "eef23756026670cd6903c5565baae9209ebf3b28f7d19fbf6d8c56d0cd19b421",
+      "app/parsing.py": "b4518e3765e5f2e68631eb1bfdd4a4118f7b3bf3ca8abb0d348e68a0b7222d87",
+      "app/policy.py": "8cac6a335a4e241d4d9b559960cfed571bb5a271db198d8f568293fc866cbf1f",
+      "app/providers.py": "5725a840803ea191a64b36ef64b3545a92554d25b03d9048b938f2a1b2bafef6",
+      "app/retrieval.py": "6455c12019c1401df19d93b515bff3f0d25715446bd2b0ebdc72908a536bf1d6",
+      "app/schema.py": "610017cf8373a6d093d8672f78a1e083746ebc7281fe1a5bff7fcaf075c27946",
+      "app/scoring.py": "c2f29e85ba75a21451a61fae3736065b5e2d34dbb8fd7bde72a184b390090236",
+      "app/service.py": "4c72db92699f00e9cd74c470238073b149fe9e7edad7232daf6c1ae4d41e878a",
+      "app/templates/app.js": "0d9b2ba5ac2f68df615a4989742a24274e2a20bd8b39ceedad83ef9b7d670e77",
+      "app/templates/index.html": "deff98d42c8194ea540b9c913e76536d589c1f6928f9336a9338d891328b3b65",
+      "app/templates/style.css": "8e3bafd4e58ce25bcf254dd52c1973c8ccb9e6ae7152e5a2e2de34df23fa02f4",
+      "app/web.py": "c73dfd976b0f2b12a723b82393013bdef0a99bd0474b805701b46bfecf63d9a1",
+      "app/workbooks.py": "18e0983ee6e2e30b822ccb4c741a38484eaa534587e07a58253e1fb5e9dcc1dd",
+      "app/worker.py": "c66278da53462abe4b331c1b9ce8052d2c716341f00b631d61ff42aba73b5965",
+      "app/workflow.py": "98a56658583a7e17066b80f73193ebfad15af0b43be29a2e0757c82cc83851c8"
+    },
+    "tests": {
+      "affected": {
+        "tests": 41,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 4.935,
+        "xml": "output/review-fixes-tests.xml",
+        "sha256": "16ab1e0080f112f4878870f6613f5c27a13b2d6c97503b7d7fc152f9eb758e1e"
+      },
+      "browser": {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 4.35,
+        "xml": "output/review-fixes-browser-tests.xml",
+        "sha256": "adc974fd3d5a0d7833101c51c50cc8741c2b3db29d747335e9fdacf44b11947d"
+      },
+      "postgres": {
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.798,
+        "xml": "output/review-fixes-postgres-tests.xml",
+        "sha256": "755ae45e97729cd19c212201c6f3c24a70c32c1b3d2fd58aef7b1bccb88b2f10"
+      }
+    },
+    "lint": "passed",
+    "format": "passed",
+    "regressions_reproduced_before_fix": true,
+    "offline_rescored_batches": [
+      "kimi-validation-k3-v2",
+      "kimi-locked-v1"
+    ],
+    "all_numerical_metrics_unchanged": true,
+    "outcomes_labels_and_unknown_charges_preserved": true,
+    "paid_api_calls": 0,
+    "frozen_configuration_not_rewritten": true,
+    "native_api": {
+      "pid": 48719,
+      "port": 8012,
+      "readiness_http_status": 200,
+      "ui_shell_verified": true,
+      "model_credential_in_environment": false,
+      "corrected_code": true
+    },
+    "worker": "Unchanged frozen generation code; not restarted for API/scoring-only fixes.",
+    "container": "Previously verified frozen image; not rebuilt or presented as the corrected-source container.",
+    "source_archive": "output/evaluation/kimi-release-implementation.zip",
+    "manual": {
+      "path": "MANUAL.md",
+      "words": 18372,
+      "chapters": 23,
+      "interview_questions": 60,
+      "local_links_verified": true
+    }
+  },
+  "github_preparation": {
+    "date": "2026-10-07",
+    "scope": "Standalone assuredesk repository only; other projects and planning documents preserved.",
+    "default_branch": "main",
+    "readme": "Portable GitHub overview; self-contained links; measured results and limitations retained.",
+    "excluded": "Local secrets/data/models/keys/backups, environments, caches, logs and random recordings.",
+    "removed": "Disposable caches, macOS metadata, unreferenced :memory:.ses file and 13 redundant browser recordings.",
+    "duplicate_recordings_bytes_removed": 7444381,
+    "frozen_archives_and_evaluation_outcomes_preserved": true,
+    "application_code_unchanged": true,
+    "paid_api_calls": 0,
+    "lint": "passed",
+    "format": "passed",
+    "focused_offline_smoke_tests": {
+      "passed": 3,
+      "scope": "Missing-run/ranking scoring and grouped synthetic corpus; no provider calls."
+    },
+    "documentation_links": "All local README/manual links resolve within the commit candidate.",
+    "publishing_status": "Prepared locally; no commit, remote repository or push performed.",
+    "report_presentation_change": "Added attainable metric ranges and ideal values in README, manual and current locked Markdown report; raw numerical JSON and all frozen archives are unchanged.",
+    "generated_diff_attributes": "Generated evidence and lockfile are retained but collapsed by default in GitHub diffs.",
+    "metric_range_verification": "All 13 locked answerable cases have exactly two reference-relevant chunks. Existing offline ranking scorer verifies ideal Precision@6=2/6, Recall@6=1, MRR@6=1 and nDCG@6=1. No paid calls or score changes."
+  },
+  "documentation_revision": {
+    "date": "2026-10-17",
+    "original_readme": "output/evaluation/kimi-release-implementation.zip (member OLD_README.md)",
+    "original_readme_sha256": "bedc1da95ae7a024bd9aea63124be1345d4d105d222d708d9635baa96d5ef4b3",
+    "scope": "New README and matching linked manual/current report presentation; prior README preserved byte-for-byte.",
+    "application_code_changed": false,
+    "evaluation_results_changed": false,
+    "frozen_configuration_and_archives_changed": false,
+    "paid_api_calls": 0,
+    "verification": "Original README matches prior Git index exactly; all local documentation file links resolve; metric table rows unchanged; all recorded artifact and application source hashes verified."
+  },
+  "github_publication": {
+    "requested_on": "2026-10-17",
+    "repository": "https://github.com/StartZer0/assuredesk",
+    "visibility": "public",
+    "branch": "main",
+    "scope": "AssureDesk only; respects local deletion of OLD_README.md. Original README remains in the versioned current implementation archive.",
+    "preflight": {
+      "offline_tests_passed": 98,
+      "offline_tests_skipped": 13,
+      "skipped_scope": "Optional browser/PostgreSQL integration checks require their explicit runtimes.",
+      "parser_sandbox": "Passed outside Codex execution sandbox with TEST_PARSER_SANDBOX=1.",
+      "lint_and_format": "passed",
+      "credential_scan": "Tracked content and 10 ZIP archives scanned recursively; no credential matches.",
+      "artifact_and_application_hashes": "verified",
+      "paid_api_calls": 0
+    },
+    "remote_verification": "Consult GitHub branch and Actions for post-push commit and CI status."
+  }
+}

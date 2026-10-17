@@ -1,0 +1,10 @@
+{
+  "nonroot": true,
+  "api_has_no_model_key": true,
+  "worker_current": true,
+  "operations_fields": true,
+  "readiness": {
+    "status": "ready"
+  },
+  "image_id": "sha256:6fac60df516695b574c5508c9c6fc9a70aee056e5308bc310b42328ab3d882e3"
+}

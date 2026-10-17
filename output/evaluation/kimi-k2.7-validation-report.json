@@ -1,0 +1,6521 @@
+{
+  "planned_cases": 30,
+  "attempted_runs": 25,
+  "cost_usd": 0.1603298,
+  "dispositions": {
+    "ANSWERABLE": 12,
+    "PARTIAL": 4,
+    "CLARIFICATION": 6,
+    "CONFLICT": 4,
+    "UNSUPPORTED": 4
+  },
+  "retrieval_population": "Reference ANSWERABLE cases; failed retrievals remain zero-scored.",
+  "review_agreement": {
+    "pairs": 0,
+    "agreement": null,
+    "kappa": null
+  },
+  "variants": {
+    "dense": {
+      "attempted": 9,
+      "missing_runs": [
+        "api-admission-1",
+        "api-admission-2",
+        "api-admission-3",
+        "api-admission-4",
+        "api-admission-5",
+        "mail-domain-1",
+        "mail-domain-2",
+        "mail-domain-3",
+        "mail-domain-4",
+        "mail-domain-5",
+        "support-scrubbing-1",
+        "support-scrubbing-2",
+        "support-scrubbing-3",
+        "support-scrubbing-4",
+        "support-scrubbing-5",
+        "vendor-scan-1",
+        "vendor-scan-2",
+        "vendor-scan-3",
+        "vendor-scan-4",
+        "vendor-scan-5",
+        "webhook-auth-5"
+      ],
+      "unscored": 0,
+      "supported_complete": {
+        "numerator": 3,
+        "denominator": 12,
+        "value": 0.25
+      },
+      "selective_precision": {
+        "numerator": 3,
+        "denominator": 3,
+        "value": 1.0
+      },
+      "answer_coverage": {
+        "numerator": 3,
+        "denominator": 12,
+        "value": 0.25
+      },
+      "missed_answerable": {
+        "numerator": 9,
+        "denominator": 12,
+        "value": 0.75
+      },
+      "complete_family_interval": {
+        "families": 4,
+        "lower": 0,
+        "upper": 0.5,
+        "seed": 17
+      },
+      "safe_routing": {
+        "PARTIAL": {
+          "numerator": 2,
+          "denominator": 4,
+          "value": 0.5
+        },
+        "CLARIFICATION": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "CONFLICT": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0
+        },
+        "UNSUPPORTED": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0
+        }
+      },
+      "retrieval": {
+        "first_candidates": {
+          "1": {
+            "recall": {
+              "mean": 0.5,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 1.0,
+              "cases": 5
+            }
+          },
+          "3": {
+            "recall": {
+              "mean": 0.8,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.5333333333333333,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.8452588771061833,
+              "cases": 5
+            }
+          },
+          "6": {
+            "recall": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.3333333333333333,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9363799070236755,
+              "cases": 5
+            }
+          },
+          "12": {
+            "recall": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.16666666666666666,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9363799070236755,
+              "cases": 5
+            }
+          },
+          "20": {
+            "recall": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.1,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9363799070236755,
+              "cases": 5
+            }
+          },
+          "bundle_coverage": {
+            "numerator": 10,
+            "denominator": 10,
+            "value": 1.0
+          }
+        },
+        "final_candidates": {
+          "1": {
+            "recall": {
+              "mean": 0.5,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 1.0,
+              "cases": 5
+            }
+          },
+          "3": {
+            "recall": {
+              "mean": 0.8,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.5333333333333333,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.8452588771061833,
+              "cases": 5
+            }
+          },
+          "6": {
+            "recall": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.3333333333333333,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9363799070236755,
+              "cases": 5
+            }
+          },
+          "12": {
+            "recall": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.16666666666666666,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9363799070236755,
+              "cases": 5
+            }
+          },
+          "20": {
+            "recall": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.1,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9363799070236755,
+              "cases": 5
+            }
+          },
+          "bundle_coverage": {
+            "numerator": 10,
+            "denominator": 10,
+            "value": 1.0
+          }
+        },
+        "first_input": {
+          "1": {
+            "recall": {
+              "mean": 0.5,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 1.0,
+              "cases": 5
+            }
+          },
+          "3": {
+            "recall": {
+              "mean": 0.8,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.5333333333333333,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.8452588771061833,
+              "cases": 5
+            }
+          },
+          "6": {
+            "recall": {
+              "mean": 0.8,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.26666666666666666,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.8452588771061833,
+              "cases": 5
+            }
+          },
+          "12": {
+            "recall": {
+              "mean": 0.8,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.13333333333333333,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.8452588771061833,
+              "cases": 5
+            }
+          },
+          "20": {
+            "recall": {
+              "mean": 0.8,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.08,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.8452588771061833,
+              "cases": 5
+            }
+          },
+          "bundle_coverage": {
+            "numerator": 8,
+            "denominator": 10,
+            "value": 0.8
+          }
+        },
+        "final_input": {
+          "1": {
+            "recall": {
+              "mean": 0.5,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 1.0,
+              "cases": 5
+            }
+          },
+          "3": {
+            "recall": {
+              "mean": 0.8,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.5333333333333333,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.8452588771061833,
+              "cases": 5
+            }
+          },
+          "6": {
+            "recall": {
+              "mean": 0.8,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.26666666666666666,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.8452588771061833,
+              "cases": 5
+            }
+          },
+          "12": {
+            "recall": {
+              "mean": 0.8,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.13333333333333333,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.8452588771061833,
+              "cases": 5
+            }
+          },
+          "20": {
+            "recall": {
+              "mean": 0.8,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.08,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.8452588771061833,
+              "cases": 5
+            }
+          },
+          "bundle_coverage": {
+            "numerator": 8,
+            "denominator": 10,
+            "value": 0.8
+          }
+        }
+      },
+      "retrieval_cases": {
+        "first_candidates": [
+          {
+            "case": "credential-escrow-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8503449055347546
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8503449055347546
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8503449055347546
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-5",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8315546295836225
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8315546295836225
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8315546295836225
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          }
+        ],
+        "final_candidates": [
+          {
+            "case": "credential-escrow-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8503449055347546
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8503449055347546
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8503449055347546
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-5",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8315546295836225
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8315546295836225
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8315546295836225
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          }
+        ],
+        "first_input": [
+          {
+            "case": "credential-escrow-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 6,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "12": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 12,
+                  "value": 0.08333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "20": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 20,
+                  "value": 0.05
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            }
+          },
+          {
+            "case": "credential-escrow-5",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 6,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "12": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 12,
+                  "value": 0.08333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "20": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 20,
+                  "value": 0.05
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            }
+          }
+        ],
+        "final_input": [
+          {
+            "case": "credential-escrow-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 6,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "12": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 12,
+                  "value": 0.08333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "20": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 20,
+                  "value": 0.05
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            }
+          },
+          {
+            "case": "credential-escrow-5",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 6,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "12": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 12,
+                  "value": 0.08333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "20": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 20,
+                  "value": 0.05
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            }
+          }
+        ]
+      },
+      "cost_usd": 0.04763515,
+      "failure_reasons": {
+        "": 7,
+        "needs_clarification": 1,
+        "operator_interrupted": 1
+      },
+      "tokens": {
+        "input_tokens": 14917,
+        "output_tokens": 8366
+      },
+      "generation_attempts": 12,
+      "embedding_attempts": 9,
+      "active_latency_seconds": {
+        "p50": 10.797093868255615,
+        "p95": 22.62366795539856
+      },
+      "admission_wait_seconds": {
+        "p50": 16.242743015289307,
+        "p95": 23.07933211326599
+      },
+      "processing_latency_seconds": {
+        "p50": 23.296685934066772,
+        "p95": 45.70300006866455
+      },
+      "unsupported_assertions": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "assertion_unscored_drafts": 0,
+      "unsupported_question_rate": {
+        "numerator": 0,
+        "denominator": 3,
+        "value": 0.0
+      },
+      "ready_selective_precision": {
+        "numerator": 3,
+        "denominator": 3,
+        "value": 1.0
+      },
+      "citation_entailment": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "citation_coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "citation_integrity": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "review_minutes": {
+        "total": 0,
+        "measured": 0
+      },
+      "cost_accounting": {
+        "actual_usd": 0.04763515,
+        "uncertain_reserved_usd": 0,
+        "uncertain_attempts": 0
+      },
+      "approval_mistakes": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "strata": {
+        "reuse": {
+          "attempted": 0,
+          "complete": 0
+        },
+        "non_reuse": {
+          "attempted": 9,
+          "complete": 3
+        }
+      }
+    },
+    "hybrid": {
+      "attempted": 8,
+      "missing_runs": [
+        "api-admission-1",
+        "api-admission-2",
+        "api-admission-3",
+        "api-admission-4",
+        "api-admission-5",
+        "mail-domain-1",
+        "mail-domain-2",
+        "mail-domain-3",
+        "mail-domain-4",
+        "mail-domain-5",
+        "support-scrubbing-1",
+        "support-scrubbing-2",
+        "support-scrubbing-3",
+        "support-scrubbing-4",
+        "support-scrubbing-5",
+        "vendor-scan-1",
+        "vendor-scan-2",
+        "vendor-scan-3",
+        "vendor-scan-4",
+        "vendor-scan-5",
+        "webhook-auth-4",
+        "webhook-auth-5"
+      ],
+      "unscored": 0,
+      "supported_complete": {
+        "numerator": 4,
+        "denominator": 12,
+        "value": 0.3333333333333333
+      },
+      "selective_precision": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "answer_coverage": {
+        "numerator": 4,
+        "denominator": 12,
+        "value": 0.3333333333333333
+      },
+      "missed_answerable": {
+        "numerator": 8,
+        "denominator": 12,
+        "value": 0.6666666666666666
+      },
+      "complete_family_interval": {
+        "families": 4,
+        "lower": 0,
+        "upper": 0.75,
+        "seed": 17
+      },
+      "safe_routing": {
+        "PARTIAL": {
+          "numerator": 1,
+          "denominator": 4,
+          "value": 0.25
+        },
+        "CLARIFICATION": {
+          "numerator": 1,
+          "denominator": 6,
+          "value": 0.16666666666666666
+        },
+        "CONFLICT": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0
+        },
+        "UNSUPPORTED": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0
+        }
+      },
+      "retrieval": {
+        "first_candidates": {
+          "1": {
+            "recall": {
+              "mean": 0.5,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 1.0,
+              "cases": 5
+            }
+          },
+          "3": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.6,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "6": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.3,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "12": {
+            "recall": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.16666666666666666,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9635059180707889,
+              "cases": 5
+            }
+          },
+          "20": {
+            "recall": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.1,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9635059180707889,
+              "cases": 5
+            }
+          },
+          "bundle_coverage": {
+            "numerator": 10,
+            "denominator": 10,
+            "value": 1.0
+          }
+        },
+        "final_candidates": {
+          "1": {
+            "recall": {
+              "mean": 0.5,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 1.0,
+              "cases": 5
+            }
+          },
+          "3": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.6,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "6": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.3,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "12": {
+            "recall": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.16666666666666666,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9635059180707889,
+              "cases": 5
+            }
+          },
+          "20": {
+            "recall": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.1,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9635059180707889,
+              "cases": 5
+            }
+          },
+          "bundle_coverage": {
+            "numerator": 10,
+            "denominator": 10,
+            "value": 1.0
+          }
+        },
+        "first_input": {
+          "1": {
+            "recall": {
+              "mean": 0.5,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 1.0,
+              "cases": 5
+            }
+          },
+          "3": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.6,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "6": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.3,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "12": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.15,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "20": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.09000000000000001,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "bundle_coverage": {
+            "numerator": 9,
+            "denominator": 10,
+            "value": 0.9
+          }
+        },
+        "final_input": {
+          "1": {
+            "recall": {
+              "mean": 0.5,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 1.0,
+              "cases": 5
+            }
+          },
+          "3": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.6,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "6": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.3,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "12": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.15,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "20": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.09000000000000001,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "bundle_coverage": {
+            "numerator": 9,
+            "denominator": 10,
+            "value": 0.9
+          }
+        }
+      },
+      "retrieval_cases": {
+        "first_candidates": [
+          {
+            "case": "credential-escrow-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-5",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 6,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8175295903539445
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8175295903539445
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          }
+        ],
+        "final_candidates": [
+          {
+            "case": "credential-escrow-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-5",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 6,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8175295903539445
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8175295903539445
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          }
+        ],
+        "first_input": [
+          {
+            "case": "credential-escrow-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-5",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 6,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "12": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 12,
+                  "value": 0.08333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "20": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 20,
+                  "value": 0.05
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            }
+          }
+        ],
+        "final_input": [
+          {
+            "case": "credential-escrow-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-5",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 6,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "12": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 12,
+                  "value": 0.08333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "20": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 20,
+                  "value": 0.05
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            }
+          }
+        ]
+      },
+      "cost_usd": 0.05524945,
+      "failure_reasons": {
+        "": 5,
+        "context_limit": 1,
+        "needs_clarification": 1,
+        "invalid_model_output": 1
+      },
+      "tokens": {
+        "input_tokens": 15631,
+        "output_tokens": 10100
+      },
+      "generation_attempts": 13,
+      "embedding_attempts": 8,
+      "active_latency_seconds": {
+        "p50": 11.352744817733765,
+        "p95": 25.056371688842773
+      },
+      "admission_wait_seconds": {
+        "p50": 20.834177017211914,
+        "p95": 32.783414125442505
+      },
+      "processing_latency_seconds": {
+        "p50": 39.29356503486633,
+        "p95": 43.52063727378845
+      },
+      "unsupported_assertions": {
+        "numerator": 0,
+        "denominator": 8,
+        "value": 0.0
+      },
+      "assertion_unscored_drafts": 0,
+      "unsupported_question_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "ready_selective_precision": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "citation_entailment": {
+        "numerator": 8,
+        "denominator": 8,
+        "value": 1.0
+      },
+      "citation_coverage": {
+        "numerator": 8,
+        "denominator": 8,
+        "value": 1.0
+      },
+      "citation_integrity": {
+        "numerator": 8,
+        "denominator": 8,
+        "value": 1.0
+      },
+      "review_minutes": {
+        "total": 0,
+        "measured": 0
+      },
+      "cost_accounting": {
+        "actual_usd": 0.05524945,
+        "uncertain_reserved_usd": 0,
+        "uncertain_attempts": 0
+      },
+      "approval_mistakes": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "strata": {
+        "reuse": {
+          "attempted": 0,
+          "complete": 0
+        },
+        "non_reuse": {
+          "attempted": 8,
+          "complete": 4
+        }
+      }
+    },
+    "corrective": {
+      "attempted": 8,
+      "missing_runs": [
+        "api-admission-1",
+        "api-admission-2",
+        "api-admission-3",
+        "api-admission-4",
+        "api-admission-5",
+        "mail-domain-1",
+        "mail-domain-2",
+        "mail-domain-3",
+        "mail-domain-4",
+        "mail-domain-5",
+        "support-scrubbing-1",
+        "support-scrubbing-2",
+        "support-scrubbing-3",
+        "support-scrubbing-4",
+        "support-scrubbing-5",
+        "vendor-scan-1",
+        "vendor-scan-2",
+        "vendor-scan-3",
+        "vendor-scan-4",
+        "vendor-scan-5",
+        "webhook-auth-4",
+        "webhook-auth-5"
+      ],
+      "unscored": 0,
+      "supported_complete": {
+        "numerator": 3,
+        "denominator": 12,
+        "value": 0.25
+      },
+      "selective_precision": {
+        "numerator": 3,
+        "denominator": 3,
+        "value": 1.0
+      },
+      "answer_coverage": {
+        "numerator": 3,
+        "denominator": 12,
+        "value": 0.25
+      },
+      "missed_answerable": {
+        "numerator": 9,
+        "denominator": 12,
+        "value": 0.75
+      },
+      "complete_family_interval": {
+        "families": 4,
+        "lower": 0,
+        "upper": 0.5,
+        "seed": 17
+      },
+      "safe_routing": {
+        "PARTIAL": {
+          "numerator": 1,
+          "denominator": 4,
+          "value": 0.25
+        },
+        "CLARIFICATION": {
+          "numerator": 0,
+          "denominator": 6,
+          "value": 0.0
+        },
+        "CONFLICT": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0
+        },
+        "UNSUPPORTED": {
+          "numerator": 0,
+          "denominator": 4,
+          "value": 0.0
+        }
+      },
+      "retrieval": {
+        "first_candidates": {
+          "1": {
+            "recall": {
+              "mean": 0.5,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 1.0,
+              "cases": 5
+            }
+          },
+          "3": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.6,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "6": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.3,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "12": {
+            "recall": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.16666666666666666,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9635059180707889,
+              "cases": 5
+            }
+          },
+          "20": {
+            "recall": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.1,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9635059180707889,
+              "cases": 5
+            }
+          },
+          "bundle_coverage": {
+            "numerator": 10,
+            "denominator": 10,
+            "value": 1.0
+          }
+        },
+        "final_candidates": {
+          "1": {
+            "recall": {
+              "mean": 0.5,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 1.0,
+              "cases": 5
+            }
+          },
+          "3": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.6,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "6": {
+            "recall": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.3333333333333333,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.970068981106951,
+              "cases": 5
+            }
+          },
+          "12": {
+            "recall": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.16666666666666666,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.970068981106951,
+              "cases": 5
+            }
+          },
+          "20": {
+            "recall": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.1,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.970068981106951,
+              "cases": 5
+            }
+          },
+          "bundle_coverage": {
+            "numerator": 10,
+            "denominator": 10,
+            "value": 1.0
+          }
+        },
+        "first_input": {
+          "1": {
+            "recall": {
+              "mean": 0.5,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 1.0,
+              "cases": 5
+            }
+          },
+          "3": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.6,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "6": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.3,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "12": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.15,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "20": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.09000000000000001,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "bundle_coverage": {
+            "numerator": 9,
+            "denominator": 10,
+            "value": 0.9
+          }
+        },
+        "final_input": {
+          "1": {
+            "recall": {
+              "mean": 0.5,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 1.0,
+              "cases": 5
+            }
+          },
+          "3": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.6,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "6": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.3,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "12": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.15,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "20": {
+            "recall": {
+              "mean": 0.9,
+              "cases": 5
+            },
+            "precision": {
+              "mean": 0.09000000000000001,
+              "cases": 5
+            },
+            "mrr": {
+              "mean": 1.0,
+              "cases": 5
+            },
+            "ndcg": {
+              "mean": 0.9226294385530917,
+              "cases": 5
+            }
+          },
+          "bundle_coverage": {
+            "numerator": 9,
+            "denominator": 10,
+            "value": 0.9
+          }
+        }
+      },
+      "retrieval_cases": {
+        "first_candidates": [
+          {
+            "case": "credential-escrow-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-5",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 6,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8175295903539445
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8175295903539445
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          }
+        ],
+        "final_candidates": [
+          {
+            "case": "credential-escrow-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-5",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8503449055347546
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8503449055347546
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 0.8503449055347546
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          }
+        ],
+        "first_input": [
+          {
+            "case": "credential-escrow-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-5",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 6,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "12": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 12,
+                  "value": 0.08333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "20": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 20,
+                  "value": 0.05
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            }
+          }
+        ],
+        "final_input": [
+          {
+            "case": "credential-escrow-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "credential-escrow-5",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-1",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 3,
+                  "value": 0.6666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "6": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 6,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "12": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 12,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "20": {
+                "recall": {
+                  "numerator": 2,
+                  "denominator": 2,
+                  "value": 1.0
+                },
+                "precision": {
+                  "numerator": 2,
+                  "denominator": 20,
+                  "value": 0.1
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 2,
+              "denominator": 2,
+              "value": 1.0
+            }
+          },
+          {
+            "case": "webhook-auth-2",
+            "rankings": {
+              "1": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 1,
+                  "value": 1.0
+                },
+                "mrr": 1.0,
+                "ndcg": 1.0
+              },
+              "3": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 3,
+                  "value": 0.3333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "6": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 6,
+                  "value": 0.16666666666666666
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "12": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 12,
+                  "value": 0.08333333333333333
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              },
+              "20": {
+                "recall": {
+                  "numerator": 1,
+                  "denominator": 2,
+                  "value": 0.5
+                },
+                "precision": {
+                  "numerator": 1,
+                  "denominator": 20,
+                  "value": 0.05
+                },
+                "mrr": 1.0,
+                "ndcg": 0.6131471927654584
+              }
+            },
+            "bundle_coverage": {
+              "numerator": 1,
+              "denominator": 2,
+              "value": 0.5
+            }
+          }
+        ]
+      },
+      "cost_usd": 0.0574452,
+      "failure_reasons": {
+        "": 4,
+        "context_limit": 3,
+        "no_progress": 1
+      },
+      "tokens": {
+        "input_tokens": 17016,
+        "output_tokens": 10320
+      },
+      "generation_attempts": 14,
+      "embedding_attempts": 14,
+      "active_latency_seconds": {
+        "p50": 12.244510054588318,
+        "p95": 22.264315366744995
+      },
+      "admission_wait_seconds": {
+        "p50": 20.961276412010193,
+        "p95": 35.73611760139465
+      },
+      "processing_latency_seconds": {
+        "p50": 35.58485269546509,
+        "p95": 58.00043296813965
+      },
+      "unsupported_assertions": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "assertion_unscored_drafts": 0,
+      "unsupported_question_rate": {
+        "numerator": 0,
+        "denominator": 3,
+        "value": 0.0
+      },
+      "ready_selective_precision": {
+        "numerator": 3,
+        "denominator": 3,
+        "value": 1.0
+      },
+      "citation_entailment": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "citation_coverage": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "citation_integrity": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "review_minutes": {
+        "total": 0,
+        "measured": 0
+      },
+      "cost_accounting": {
+        "actual_usd": 0.0574452,
+        "uncertain_reserved_usd": 0,
+        "uncertain_attempts": 0
+      },
+      "approval_mistakes": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "strata": {
+        "reuse": {
+          "attempted": 0,
+          "complete": 0
+        },
+        "non_reuse": {
+          "attempted": 8,
+          "complete": 3
+        }
+      }
+    }
+  },
+  "paired": {
+    "count": 5,
+    "recovery": {
+      "numerator": 0,
+      "denominator": 1,
+      "value": 0.0
+    },
+    "regression": {
+      "numerator": 1,
+      "denominator": 4,
+      "value": 0.25
+    },
+    "net_change": {
+      "numerator": -1,
+      "denominator": 5,
+      "value": -0.2
+    },
+    "family_interval": {
+      "families": 2,
+      "lower": -0.3333333333333333,
+      "upper": 0,
+      "seed": 17
+    }
+  },
+  "status": "incomplete",
+  "semantic_gate": {
+    "threshold": 0.9,
+    "passed": false,
+    "reason": "Independent frozen locked-test evidence required; automated retrieval scores alone cannot pass this gate",
+    "factual_target_met": false,
+    "independent_validation": false,
+    "locked_comparison": false
+  },
+  "batch": "kimi-validation-v2",
+  "scoring_code_digest": "6a94286b3dcdff6fadfcbdb5aa84966ab8344048fad834cc93f98b4ecab3591b",
+  "review_basis": "source-grounded review; no independent human validation claimed"
+}

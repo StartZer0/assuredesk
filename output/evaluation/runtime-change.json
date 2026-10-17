@@ -1,0 +1,25 @@
+{
+  "reason": "Linux XLSX parsing imports NumPy, which attempts forbidden clone syscalls. Limit numerical library threads to one in the sanitized child environment.",
+  "scope": "Parser environment only; retrieval, model, prompts, gold labels and evidence remain unchanged.",
+  "prior_frozen_source": "frozen-implementation.zip",
+  "prior_validation_batch": "validation-frozen-v1",
+  "prior_test_batch": "locked-frozen-v1",
+  "decision": "Preserve partial attempts; restart the full test comparison under a newly frozen revision after parser acceptance passes.",
+  "credential_rotation": {
+    "at_recorded_runs": 46,
+    "utc": "2026-10-04T16:12:19.736398+00:00",
+    "reason": "User supplied replacement credential after repeated HTTP 429 responses; only unfinished runs resume.",
+    "admission_interval_seconds": 20
+  },
+  "post_measurement_changes": {
+    "files": [
+      "app/operations.py",
+      "app/scoring.py",
+      "app/evaluation.py"
+    ],
+    "scope": "Operational summaries now include errors routed to review, recent authentication failures, cap stops and invalidated exports. Retrieval ranking summaries use reference ANSWERABLE cases, matching complete-bundle coverage. No retrieval, generation, prompts, labels or captured runs changed. Markdown reports now display the release gate and include a scorer digest. Family/case ordering is canonical before seeded bootstrapping, so Python hash randomization cannot change rescores.",
+    "measured_source": "final-implementation.zip",
+    "score_population_reason": "Undefined or unsupported answer targets cannot provide a meaningful relevant-document ranking denominator. All cases remain in routing, cost and failure metrics.",
+    "release_source": "release-implementation.zip"
+  }
+}

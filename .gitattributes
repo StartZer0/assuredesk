@@ -1,0 +1,3 @@
+# Preserve evidence in Git while collapsing generated artifacts in GitHub diffs.
+output/** linguist-generated=true
+uv.lock linguist-generated=true

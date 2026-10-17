@@ -1,0 +1,62 @@
+{
+  "batches": {
+    "development-smoke-v2": {
+      "attempts": 34,
+      "known_usd": 0.0101224,
+      "reserved_unknown_usd": 0.10559999999999999
+    },
+    "development-diagnostic-v3": {
+      "attempts": 11,
+      "known_usd": 0.0084864,
+      "reserved_unknown_usd": 0.0096
+    },
+    "other": {
+      "attempts": 4,
+      "known_usd": 0.0029496,
+      "reserved_unknown_usd": 0.0
+    },
+    "development-retrieval-v4": {
+      "attempts": 9,
+      "known_usd": 0.0081112,
+      "reserved_unknown_usd": 0.0
+    },
+    "development-contract-v5": {
+      "attempts": 17,
+      "known_usd": 0.010065600000000001,
+      "reserved_unknown_usd": 0.0
+    },
+    "development-scope-v6": {
+      "attempts": 33,
+      "known_usd": 0.0195392,
+      "reserved_unknown_usd": 0.0
+    },
+    "development-scope-v7": {
+      "attempts": 9,
+      "known_usd": 0.0060736,
+      "reserved_unknown_usd": 0.0
+    },
+    "validation-frozen-v1": {
+      "attempts": 307,
+      "known_usd": 0.2160576,
+      "reserved_unknown_usd": 0.10559999999999999
+    },
+    "locked-frozen-v1": {
+      "attempts": 145,
+      "known_usd": 0.039536800000000004,
+      "reserved_unknown_usd": 0.4895999999999999
+    },
+    "locked-frozen-v2": {
+      "attempts": 255,
+      "known_usd": 0.11600320000000004,
+      "reserved_unknown_usd": 0.40319999999999995
+    },
+    "quota-diagnostic": {
+      "attempts": 2,
+      "known_usd": 0.00029039999999999996,
+      "reserved_unknown_usd": 0.0096
+    }
+  },
+  "total_known_usd": 0.437236,
+  "total_unknown_reserved_usd": 1.1231999999999998,
+  "note": "Includes aborted batches and diagnostics; unknown provider usage retains its reservation. Local embeddings have zero provider charge."
+}

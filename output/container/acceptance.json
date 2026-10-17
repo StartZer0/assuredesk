@@ -1,0 +1,8 @@
+{
+  "import_mapping": true,
+  "five_explicit_reviews": true,
+  "export_roundtrip": true,
+  "role_revocation_denied": true,
+  "restored_role_does_not_restore_stale_approval": true,
+  "paid_calls": 0
+}

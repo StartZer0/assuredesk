@@ -1,0 +1,154 @@
+{
+  "campaign": "pilot-1",
+  "basis": "Conservative application estimates from known token usage plus unknown-usage reservations; not a provider invoice.",
+  "batches": {
+    "kimi-validation-k3": {
+      "known_usage_estimate_usd": 1.490169,
+      "uncertain_reserved_usd": 0.054,
+      "generation_attempts": 135,
+      "embedding_attempts": 121,
+      "unknown_usage_attempts": 1
+    },
+    "development-contract-v5": {
+      "known_usage_estimate_usd": 0.010065600000000001,
+      "uncertain_reserved_usd": 0.0,
+      "generation_attempts": 10,
+      "embedding_attempts": 7,
+      "unknown_usage_attempts": 0
+    },
+    "development-scope-v6": {
+      "known_usage_estimate_usd": 0.0195392,
+      "uncertain_reserved_usd": 0.0,
+      "generation_attempts": 20,
+      "embedding_attempts": 13,
+      "unknown_usage_attempts": 0
+    },
+    "development-scope-v7": {
+      "known_usage_estimate_usd": 0.0060736,
+      "uncertain_reserved_usd": 0.0,
+      "generation_attempts": 6,
+      "embedding_attempts": 3,
+      "unknown_usage_attempts": 0
+    },
+    "validation-frozen-v1": {
+      "known_usage_estimate_usd": 0.2160576,
+      "uncertain_reserved_usd": 0.10559999999999999,
+      "generation_attempts": 181,
+      "embedding_attempts": 126,
+      "unknown_usage_attempts": 11
+    },
+    "kimi-validation-k3-v2": {
+      "known_usage_estimate_usd": 1.3840290000000004,
+      "uncertain_reserved_usd": 0.27,
+      "generation_attempts": 132,
+      "embedding_attempts": 119,
+      "unknown_usage_attempts": 5
+    },
+    "locked-frozen-v1": {
+      "known_usage_estimate_usd": 0.039536800000000004,
+      "uncertain_reserved_usd": 0.4895999999999999,
+      "generation_attempts": 75,
+      "embedding_attempts": 70,
+      "unknown_usage_attempts": 51
+    },
+    "locked-frozen-v2": {
+      "known_usage_estimate_usd": 0.11600320000000004,
+      "uncertain_reserved_usd": 0.40319999999999995,
+      "generation_attempts": 133,
+      "embedding_attempts": 122,
+      "unknown_usage_attempts": 42
+    },
+    "quota-diagnostic": {
+      "known_usage_estimate_usd": 0.00029039999999999996,
+      "uncertain_reserved_usd": 0.0096,
+      "generation_attempts": 2,
+      "embedding_attempts": 0,
+      "unknown_usage_attempts": 1
+    },
+    "kimi-contract-v1": {
+      "known_usage_estimate_usd": 0.0241264,
+      "uncertain_reserved_usd": 0.042,
+      "generation_attempts": 18,
+      "embedding_attempts": 9,
+      "unknown_usage_attempts": 4
+    },
+    "kimi-shape-diagnostic": {
+      "known_usage_estimate_usd": 0.00976135,
+      "uncertain_reserved_usd": 0.0,
+      "generation_attempts": 6,
+      "embedding_attempts": 3,
+      "unknown_usage_attempts": 0
+    },
+    "kimi-inline-v1": {
+      "known_usage_estimate_usd": 0.014636249999999998,
+      "uncertain_reserved_usd": 0.0,
+      "generation_attempts": 10,
+      "embedding_attempts": 6,
+      "unknown_usage_attempts": 0
+    },
+    "kimi-checker-v2": {
+      "known_usage_estimate_usd": 0.0087874,
+      "uncertain_reserved_usd": 0.0,
+      "generation_attempts": 6,
+      "embedding_attempts": 3,
+      "unknown_usage_attempts": 0
+    },
+    "kimi-development-v1": {
+      "known_usage_estimate_usd": 0.0375569,
+      "uncertain_reserved_usd": 0.0,
+      "generation_attempts": 26,
+      "embedding_attempts": 19,
+      "unknown_usage_attempts": 0
+    },
+    "kimi-validation-v1": {
+      "known_usage_estimate_usd": 0.08713080000000001,
+      "uncertain_reserved_usd": 0.0,
+      "generation_attempts": 59,
+      "embedding_attempts": 45,
+      "unknown_usage_attempts": 0
+    },
+    "kimi-k2.7-contract": {
+      "known_usage_estimate_usd": 0.011160449999999999,
+      "uncertain_reserved_usd": 0.0,
+      "generation_attempts": 3,
+      "embedding_attempts": 3,
+      "unknown_usage_attempts": 0
+    },
+    "kimi-validation-v2": {
+      "known_usage_estimate_usd": 0.16032980000000002,
+      "uncertain_reserved_usd": 0.0,
+      "generation_attempts": 39,
+      "embedding_attempts": 31,
+      "unknown_usage_attempts": 0
+    },
+    "kimi-k3-contract": {
+      "known_usage_estimate_usd": 0.020031,
+      "uncertain_reserved_usd": 0.0,
+      "generation_attempts": 2,
+      "embedding_attempts": 1,
+      "unknown_usage_attempts": 0
+    },
+    "kimi-k3-grounding-contract": {
+      "known_usage_estimate_usd": 0.047241,
+      "uncertain_reserved_usd": 0.0,
+      "generation_attempts": 5,
+      "embedding_attempts": 3,
+      "unknown_usage_attempts": 0
+    },
+    "kimi-locked-v1": {
+      "known_usage_estimate_usd": 1.504908,
+      "uncertain_reserved_usd": 0.054,
+      "generation_attempts": 138,
+      "embedding_attempts": 123,
+      "unknown_usage_attempts": 1
+    }
+  },
+  "known_usage_estimate_usd": 5.207433750000001,
+  "uncertain_reserved_usd": 1.428,
+  "application_utc_day_charge_usd": 1.828908,
+  "application_utc_day": "2026-10-05",
+  "application_day_cap_usd": 5,
+  "campaign_cap_usd": 30,
+  "captured_utc_epoch": 1791198707.855576,
+  "campaign_charge_usd": 6.635433750000001
+}

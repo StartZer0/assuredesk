@@ -1,0 +1,9 @@
+{
+  "objects_verified": 5,
+  "approval_records": 5,
+  "migration": "003",
+  "elapsed_seconds": 0.16732458099431824,
+  "approval_fingerprint_preserved": true,
+  "uncertain_job_fenced": true,
+  "unknown_charge_retained": true
+}
